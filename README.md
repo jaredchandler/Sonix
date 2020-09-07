@@ -6,6 +6,21 @@ This is the firmware source for the ArduPilot based SkyViper GPS copter. It is b
 Building
 --------
 
+    2  sudo apt-get update
+    3  sudo apt-get install git
+    5  sudo apt-get install libc6:i386
+    6  sudo apt-get install zlib1g:i386
+    7  sudo apt-get install libencode-detect-perl
+    8  sudo apt-get install libdigest-crc-perl
+   22  sudo apt-get install vim
+   32  sudo apt install make
+   35  sudo apt install gcc
+  108  sudo pip3 uninstall pymavlink
+  109  sudo pip3 install pymavlink==2.2.10
+
+
+  133  vim /home/jchandler/Sonix/app/dashcam/src/../../../modules/APWeb/files/embed.py 
+
 To build the firmware follow these steps
 - cd buildscript
 - git submodule init
