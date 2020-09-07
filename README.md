@@ -1,4 +1,4 @@
-Firmware for video board on skyviper
+I just want to take pictures with my drone. It shouldn't require a PhD in Computer Science. 
 ====================================
 
 This is the firmware source for the ArduPilot based SkyViper GPS copter. It is based on FreeRTOS
