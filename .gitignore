@@ -10,7 +10,6 @@ embedded.c
 *.dirstamp
 *.pc
 *.la
-*.bin
 *.elf
 *.dis
 *.a
